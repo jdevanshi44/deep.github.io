@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Admin Dashboard Panel</title> 
+</head>
+<body>
+    <nav>
+       
+          
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="14052019-21.jpg" alt="">
+            </div>
+
+            <span class="logo_name">Dashboard</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="bi bi-person-square"></i>
+                    <span class="link-name">View Profile</span>
+                </a></li>
+                <li><a href="#">
+                   <i class="bi bi-pencil-square"></i>
+                    <span class="link-name">Edit Profile</span>
+                </a></li>
+                <li><a href="help.html">
+                    <i class="bi bi-question-circle"></i>
+                    <span class="link-name">Help</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+             <div id="google_element"></div>
+            <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+            <script>function loadGoogleTranslate() {
+                new google.translate.TranslateElement("google_element");
+              }</script>
+       
+        </div> 
+        
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="bi bi-clipboard-data"></i>
+                        <span class="text">Sensor Data</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="bi bi-calendar-date"></i>
+                        <span class="text">Daily Analysis</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="bi bi-calendar-week"></i>
+                        <span class="text">Weekly Analysis</span>
+                    </div>
+                    <div class="box box4">
+                        <i class="bi bi-calendar-month"></i>
+                        <span class="text">Monthly Analysis</span>
+                    </div>
+                    <div class="box box5">
+                        <i class="bi bi-calendar3"></i>
+                        <span class="text">Yearly Analysis</span>
+                    </div>
+                </div>
+            </div>
+
+        
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+ 
+</body>
+</html>

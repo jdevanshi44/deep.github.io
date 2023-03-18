@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- <a href="help.html">Help</a> -->
+
+    <title>Admin Dashboard Panel</title>
+</head>
+
+<body>
+    <nav>
+
+
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="14052019-21.jpg" alt="">
+            </div>
+
+            <a href="index.html">
+            <span class="logo_name">Dashboard</span></a>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                        <i class="bi bi-person-square"></i>
+                        <span class="link-name">View Profile</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="bi bi-pencil-square"></i>
+                        <span class="link-name">Edit Profile</span>
+                    </a></li>
+                <li><a href="help.html">
+                        <i class="bi bi-question-circle"></i>
+                        <span class="link-name">Help</span>
+                    </a></li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li><a href="#">
+                        <i class="uil uil-signout"></i>
+                        <span class="link-name">Logout</span>
+                    </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Dark Mode</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+
+            <div id="google_element"></div>
+            <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+            <script>function loadGoogleTranslate() {
+                    new google.translate.TranslateElement("google_element");
+                }</script>
+
+            <!-- <img src="images/profile.jpg" alt=""> -->
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="bi bi-question-circle"></i>
+                    <span class="text">How can I help you</span>
+                </div>
+                <br>
+        <main>
+            <h1>About Sensors</h1>
+            <dl>
+                <dt>
+                    <h3><img src="https://img.icons8.com/ios-filled/50/null/temperature--v1.png" height="48px"
+                            width="48px" /></i>Temperature</h3>
+                </dt>
+                <dd>
+                    <ul>• Temperature is a measure of degree of hotness or coldness of an object or substances.</ul>
+                    <ul>• Temperature is an important factor in everyday life, as it affects our comfort and well-being.</ul>
+                    <ul>• It affects the behavior of materials and substances including their physical properties, chemical
+                        reactions and biological properties.</ul>
+                    <ul>• Normal drinking water, the temperature ranges between 0&#8451 (32&#8457) and 20&#8451 (68&#8457).</ul>
+                    <ul>• Usually, there is no growth above 55&#8451, and a temperature of over 60&#8451 has bactericidal
+                        effect.
+                        Thus, WHO recommends that water be heated and stored at 60&#8451.</ul>
+                </dd>
+                <br>
+                <dt>
+                    <h3>Turbidity</h3>
+                </dt>
+                <dd>
+                    <ul>• Turbidity is a measure of the cloudiness or haziness of a liquid caused by presence of suspended
+                        particles.</ul>
+                    <ul>• Turbidity can be caused by a variety of factors such as sediment, algae, organic matters or inorganic
+                        particles.</ul>
+                    <ul>• It’s commonly measured in units of Nephelometric Turbidity Units (NTU) using devices called as
+                        turbidity sensor.
+                        Through this sensor we can identify the number of suspended particles in water.</ul>
+                    <ul>• Higher turbidity levels can interfere with disinfection processes and can also indicate presences of
+                        pathogens or
+                        contamination in water.</ul>
+                    <ul>• The turbidity level should be below 1 NTU according to World Health Organization (WHO).</ul>
+                </dd>
+                <br>
+        
+                <dt>
+                    <h3>Conductivity</h3>
+                </dt>
+                <dd>
+                    <ul>• Conductivity is a measure of a material’s ability to conduct electricity.
+                    </ul>
+                    <ul>• The conductivity of material depends on various factors such as presence of impurities.</ul>
+                    <ul>• The unit of conductivity is siemens per meter(S/m) or mho per meter (mho/m).</ul>
+                    <ul>• Conductivity is an important factor for determining the quality of water.</ul>
+                    <ul>• High conductivity can indicate the presence of dissolved salts and other impurities.</ul>
+                    <ul>• Normal drinking water, the conductivity ranges between 50 to 1500 micro siemens per centimeter
+                        (&#181S/cm).</ul>
+                </dd>
+                <br>
+        
+                <dt>
+                    <h3><img src="https://img.icons8.com/external-glyph-andi-nur-abdillah/64/null/external-pH-skincare-(glyph)-glyph-andi-nur-abdillah.png"
+                            height="48px" width="48px" />pH</h3>
+                </dt>
+                <dd>
+                    <ul>• pH is a measure of the acidity or alkalinity of a solution, such as water.</ul>
+                    <ul>• The pH scales from 0 to 14, with 7 being neutral.</ul>
+                    <ul>• pH value below 7 indicates acidity, while a pH value above 7 indicates alkalinity.</ul>
+                    <ul>• pH is an important factor for normal drinking water.</ul>
+                    <ul>• Normal drinking water, pH ranges between 6.5 to 8.5 according to WHO.</ul>
+                    <ul>• Water utilities may adjust the acceptable range and is safe for consumption.</ul>
+                    <ul>• If the pH of drinking water is too low or too high, it can affect the taste and appearance
+                        of water as well as potentially impact the safety of the water.</ul>
+                </dd>
+                <br>
+                <dt>
+                    <h3><img src="https://img.icons8.com/external-goofy-solid-kerismaker/96/null/external-Water-Level-weather-goofy-solid-kerismaker.png"
+                            height="48px" width="42px" /> Water Level</h3>
+                </dt>
+                <dd>
+                    <ul>• Water level refers to the height or depth of water in a particular location.</ul>
+                    <ul>• Water level data is often collected and analyzed over time to identify trends and patterns,
+                        as well as to inform water management systems.</ul>
+                    <ul>• The unit of conductivity is siemens per meter(S/m) or mho per meter (mho/m).</ul>
+                    <ul>• Water level is an important parameter to monitor for many reasons.</ul>
+                    <ul>• Ranges depends on the size of the overhead / under head tanks.</ul>
+        
+                </dd>
+                <br>
+
+               
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
